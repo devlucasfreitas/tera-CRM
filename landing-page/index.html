@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/primary.js"></script>
 
 </head>
     <header class="cabecalho">
         <img class="cabecalhoLogo" src="/imagens/logo.jpg" alt="logo-deiluc-crm">
         <nav class="cabecalhoMenu">
-            <a class="cabecalhoMenuItem" href="">Recursos</a>
-            <a class="cabecalhoMenuItem" href>Serviços e Suporte</a>
-            <a class="cabecalhoMenuItem" href="">Sobre Nós</a>
-            <a class="cabecalhoMenuItem" href="">Perguntas Frequentes</a>
+        <ul>
+            <li><a class="cabecalhoMenuItem" href="#recursos">Recursos</a></li>
+            <li><a class="cabecalhoMenuItem" href="#servicosSuporte">Serviços e Suporte</a></li>
+            <li><a class="cabecalhoMenuItem" href="#sobreNos">Sobre Nós</a></li>
+            <li><a class="cabecalhoMenuItem" href="#perguntasFrequentes">Perguntas Frequentes</a></li>
+            <li><button class="botaoLogin"><a href="/login/login.html">Login</a></button></li>
+        </ul>
         </nav>
     </header>
 
@@ -31,9 +35,18 @@
             <img class="conteudoCrmImagem" src="/imagens/bi.JPG" alt="grafico-bi">
         </section>
 
-        <section class="conteudoServicos"><!--Descritivo de serviços-->
+        <section id="recursos" class="conteudoRecursos">
+
+            <h3 class="conteudoRecursosTitulo">Recursos</h3>
+            <p class="conteudoRecursosDescricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolores numquam iusto quia molestiae possimus eius, in a facilis, facere dolor inventore corrupti 
+                repellendus nemo natus provident illo deserunt praesentium doloremque.</p>
+        
+        </section>
+
+        <section id="servicosSuporte" class="conteudoServicos"><!--Descritivo de serviços-->
            
-            <h3 class="conteudoServicosTitulo">Serviços</h3>
+            <h3 class="conteudoServicosTitulo">Serviços e Suporte</h3>
             <p class="conteudoServicosOferecidos">1. Configure <strong>suas etapas</strong> de funil</p>
             <p class="conteudoServicosOferecidos">2. Foque em <strong>ações de vendas</strong></p>
             <p class="conteudoServicosOferecidos">3. Acompanhe o <strong>progresso</strong> em direção às metas</p>
@@ -41,8 +54,27 @@
 
         </section>
 
+        <section id="sobreNos" class="conteudoSobreNos">
+
+            <h3 class="conteudoSobreNosTitulo">Sobre Nós</h3>
+            <p class="conteudoSobreNosDescricao"> Somos uma empresa de CRM focada em facilitar e renovar o modo de operações para aquisição de 
+                bens visisando sempre a agilidade expondo todos os pontos positivos do serviço.</p>
+
+        </section>
+
+        <section id="perguntasFrequentes" class="conteudoPerguntasFrequentes">
+
+            <h3 class="conteudoPerguntasFrequentesTitulo">Perguntas Frequentes</h3>
+            <p class="conteudoPerguntasFrequentesRespostas">1. O que é <strong>CRM</strong>?</p>
+            <p class="conteudoPerguntasFrequentesRespostas">2. Quato <strong>tempo</strong> dura cada pacote?</p>
+            <p class="conteudoPerguntasFrequentesRespostas">3. Tenho <strong>suporte</strong> a qualquer momento?</p>
+            <p class="conteudoPerguntasFrequentesRespostas">4. Quanto terei que <strong>insvestir</strong> pra ter algum retorno?</p>
+
+        </section>
+
+
         <footer class="rodape">
-            <img src="/imagens/imagem-footer.jpg" alt="imagem-footer">
+            <img class="imagemRodape" src="/imagens/imagem-footer.jpg" alt="imagem-footer">
         </footer>
     </main>
         
