@@ -35,10 +35,22 @@ body {
   background-color: #eeeeee;
 }
 
-input, .btnform {
+input, a {
     width: 70%;
     height: 8%;
     margin: 5% 0;
+}
+
+.btnform {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+    background-color: #6caef0;
+}
+
+.btnform:hover {
+    background-color: #4777a6;
 }
 
 .cadastrar {
