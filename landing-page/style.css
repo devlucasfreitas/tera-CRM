@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: nome;
+}
+
+body {
+    font-size: 100%;
+    /*background: linear-gradient(190deg, rgba(255,255,255,0) 0%, rgba(206,206,207,0) 60%, rgba(154,154,154,1) 100%);*/ /*TERMINAR TUDO PRA 
+    VER SE VAI FICAR LEGAL COM O DEGRADE*/
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Graduate', cursive;
+    font-size: 18px;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+.cabecalho ul{
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho li + li{
+    margin-left: 5rem;
+}
+
+.cabecalhoLogo{
+    width: 100px;
+}
+
+.cabecalhoMenu{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.cabecalhoMenuItem:hover{
+    text-decoration: underline;
+}
+
+.botaoLogin{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botaoLogin:hover{
+    background-color: #009FE2; /*rgba(0, 158, 226, 0.61);*/
+    cursor: pointer;
+    font-weight: bold
+}
+
+.conteudo{
+    border-top: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.conteudoCrmPrincipal{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Graduate', cursive;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.conteudoCrm{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: space-around;
+}
+
+.conteudoCrmTitulo{
+    font-size: 45px;
+    text-align: left;
+}
+
+.conteudoCrmSubtitulo{
+    font-size: 23px;
+    padding-right: 30px;
+}
+
+.conteudoCrmBotaoPrimario{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.conteudoCrmBotaoPrimario:hover{
+    background-color: #009FE2; /*rgba(0, 158, 226, 0.61);*/
+    cursor: pointer;
+    font-weight: bold
+}
+
+.conteudoCrmBotaoSecundario{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    font-size: 15px;
+}
+
+.conteudoCrmBotaoSecundario:hover{
+    background-color: #009FE2; /*rgba(0, 158, 226, 0.61);*/
+    cursor: pointer;
+    font-weight: bold
+}
+
+.conteudoCrmImagem{
+    height: 400px;
+    width: 800px;
+}
+
+.conteudoRecursos{
+    font-family: 'Graduate', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    padding: 60px;
+}
+
+.conteudoRecursosTitulo{
+    border-top: 1px solid black;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.conteudoRecursosDescricao{
+    font-size: 25px;
+    padding-top: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+.conteudoServicos{
+    font-family: 'Graduate', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    padding: 60px;
+}
+
+.conteudoServicosTitulo{
+    border-top: 1px solid black;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.conteudoServicosOferecidos{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.conteudoSobreNos{
+    font-family: 'Graduate', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    padding: 60px;
+}
+
+.conteudoSobreNosTitulo{
+    border-top: 1px solid black;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.conteudoSobreNosDescricao{
+    font-size: 25px;
+    padding-top: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+.conteudoPerguntasFrequentesTitulo{
+    border-top: 1px solid black;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.conteudoPerguntasFrequentesRespostas{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.conteudoPerguntasFrequentes{
+    font-family: 'Graduate', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    padding: 60px;
+}
+
+.btnTop{
+    text-decoration: nome;
+    background-color: white;  
+    padding: 6px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: fixed;
+    left: 1310px;
+    bottom: 50px;
+
+}
+
+.rodape{
+    height: 2px;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+.imagemRodape{
+    width: 520px;
+    height: 100px;
+}
