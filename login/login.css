@@ -22,7 +22,7 @@ body{
 
 .card{
     background-color: #ffffff95; /*numero 80 no final da cor é a opacidade */
-    height: 280px;
+    height: 300px;
     padding: 30px;
     border-radius: 10%;
     box-shadow: 2px 2px 2px 0px #00000080;

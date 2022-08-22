@@ -122,7 +122,7 @@ function cadastrar(){
         msgError.innerHTML = ''
        
         setTimeout(()=>{
-        window.location.href = 'http://127.0.0.1:5500/login/login.html' //APOS CADASTRO OK ESSA LINHA MOVE O USUARIA PARA PAGINA DE LOGIN
+        window.location.href = 'https://devlucasfreitas.github.io/tera-CRM/login/login.html' //APOS CADASTRO OK ESSA LINHA MOVE O USUARIA PARA PAGINA DE LOGIN
         }, 2000)
         
 
