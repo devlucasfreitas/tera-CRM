@@ -1,10 +1,14 @@
 [
 {
-"email": "lucasf.freitas@outlook.com",
-"senha": "12345"
+    "nome": "Lucas Ferreira",
+    "telefone": "11979648179",
+    "email": "lucasf.freitas@outlook.com",
+    "senha": "12345"
 },
 {
-"email": "deivison@gmail.com",
-"senha": "1234567"
+    "nome": "Deivison Macharete",
+    "telefone": "4188105614",
+    "email": "deivison@gmail.com",
+    "senha": "1234567"
 }
 ]

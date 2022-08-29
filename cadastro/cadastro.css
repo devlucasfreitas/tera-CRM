@@ -7,10 +7,9 @@
 }
 
 body{
-    background-image: url(https://img.freepik.com/vetores-gratis/desenho-de-fundo-abstrato-gradiente_23-2149066048.jpg?w=740&t=st=1659845274~exp=1659845874~hmac=a52e272ee4e2c967ca72be6b8fb77eba4df044020d0dcd50db3d36fee6a04530);
+    background-image: url(./../imagens/fundo.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: 100vw 100vh;
 }    
 
 .container{
