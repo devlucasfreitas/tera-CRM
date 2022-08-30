@@ -1,4 +1,3 @@
-import { usuarios } from "./../login/login";
 
 // ajuda heheheh
 function log(messagem) {
