@@ -8,5 +8,10 @@
         "nome": "Lucas Freitas",
         "email": "lucasf.freitas@outlook.com",
         "senha": "12345"
+    },
+    {
+        "nome": "teste",
+        "email": "teste@outlook.com",
+        "senha": "123456789"
     }
 ]
