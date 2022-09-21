@@ -13,5 +13,11 @@
         "nome": "teste",
         "email": "teste@outlook.com",
         "senha": "123456789"
+    },
+    {
+        "nome": "teste2",
+        "email": "teste2@outlook.com",
+        "senha": "12345678"
     }
+
 ]
